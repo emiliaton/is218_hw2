@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Registration Form</title>
+    <link rel='stylesheet' href='style.css' type='text/css' />
+    <script src="hw2.js"></script>
+</head>
+<body onload="document.registration.firstname.focus();">
+    <h1>Registration Form</h1>
+    <form name='registration' onSubmit="return formValidation();">
+        <ul>
+        <li><label>First Name:</label></li>
+        <li><input type="text" name="firstname" size="50" /></li>
+            <li><label>Last Name:</label></li>
+        <li><input type="text" name="lastname" size="50" /></li>
+        <li><label>Email:</label></li>
+        <li><input type="text" name="email" size="50" /></li>
+            <br>
+            <button type="submit" value="Submit">Submit</button>
+         <button type="reset" value="Cancel">Cancel</button>
+        </ul>
+    </form>
+</body>
+</html>
